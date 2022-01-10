@@ -1,9 +1,9 @@
 package com.practice;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
 /**
  * Unit test for simple App.
@@ -11,12 +11,12 @@ import org.junit.jupiter.api.DisplayName;
 @DisplayName("AppTest")
 public class AppTest {
 
-  /**
-   * Rigorous Test :-)
-   */
-  @Test
-  @DisplayName("Should Answer With True")
-  public void should_answer_with_true() {
-    assertTrue(true);
-  }
+    /**
+     * Rigorous Test :-)
+     */
+    @Test
+    @DisplayName("Should Answer With True")
+    public void shouldAnswerWithTrue() {
+        assertTrue(true);
+    }
 }
