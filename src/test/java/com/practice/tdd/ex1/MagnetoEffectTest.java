@@ -18,16 +18,4 @@ class MagnetoEffectTest {
         // Assert
         Assertions.assertEquals(new Point(49, 50), actual);
     }
-
-    @Test
-    void oneNearArchor() {
-        // Arrange
-        Point before = new Point(49, 50);
-        MagnetoEffect magnetoEffect = new MagnetoEffect();
-        magnetoEffect.addAnchor(new Point(50, 50));
-        // Act
-        Point actual = magnetoEffect.check(before);
-        // Assert
-        Assertions.assertEquals(new Point(50, 50), actual);
-    }
 }
